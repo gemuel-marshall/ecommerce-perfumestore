@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+    
+
+    <title>Perfume Store</title>
+</head>
+
+<body class="font-Roboto  h-[3000px]">
+
+    <!-- header -->
+    <header class="mx-3 fixed top-0 right-0 left-0 z-50 bg-[#2E765E] flex md:flex md:flex-row
+         align-middle justify-between py-1 md:py-2 gap-3">
+        <div class="flex cursor-pointer pl-4 py-4">
+            <h2 class="lg:mr-5 items-center">LOGO</h2>
+        </div>
+
+
+        <div class="flex flex-1 pl-1 p-4 relative justify-center lg:w-72 lg:px-32 self-start">
+
+            <input class=" w-full md:w-full outline-none rounded-lg lg:h-8 " type="text" name="" id="">
+            <div class="absolute left-4 lg:left-[8.5rem]">
+                <button class=" pt-0.5 "><i class="fa-solid fa-magnifying-glass" style="color: #2e765e;"></i></button>
+            </div>
+
+        </div>
+
+        <div class="flex md:flex relative md:flex-row p-2 lg:p-3 text-[#83CEB5] gap-2">
+            <div class="">
+                <a class="cart_icon text-center text-lg" href=""><i class="fa-solid fa-cart-shopping"
+                        style="color: #27e1c1;"></i></a>
+                <span class="cart__notification absolute lg:block bg-red-500 w-4 h-4 rounded-full p-1 
+                  left-3 text-white  pl-1.5 pb-3  -top-0.5 text-[.5rem]">2</span>
+
+                    <!-- modal start -->
+                    <div class=" cart_container w-80 md:w-96 bg-[#EEEDED] uppercase absolute z-[100] 
+                     h-[550px] right-[65%] md:right-[30%] top-7
+         rounded border-2 shadow-lg px-2 py-5">
+                    <div class="cart-container overflow-auto h-[80%] w-[100%]  relative ">
+                        
+                            <!-- <div class="item_list z-10 h-[30%] flex flex-row justify-center align-middle border-2 shadow-md">
+                                <div class="border p-2 justify-between ">
+                                    <div class="w-[35%] flex gap-1">
+                                        <input type="checkbox">
+                                        <img class="object-cover" src="/perfumes/lacos2.jpg" alt="">
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <p class="text-[1rem] white">pour elle lacoste</p>
+                                        <div class="flex">
+                                        <p class="text-lg">$</p>
+                                        <p class="text-xl">105</p>
+                                        </div>
+           
+                                    </div>
+                                    
+                                    
+
+                                </div>
+                                <div class="items-center relative flex flex-col py-3 px-2 gap-2">
+                                    <div class="flex pt-4 gap-1">
+                                        <button class="bg-white rounded w-7"><i class="fa-solid fa-plus"></i></button>
+                                        <button class="bg-white rounded w-7"><i class="fa-solid fa-minus"></i></button>
+                                        <input class="w-10" type="number" name="" id="">
+                                    </div>
+
+                                    <div class="top-20 flex flex-row gap-2 ">
+                                        <button class="text-white shadow-md bg-green-400 w-10 rounded-lg text-[.7rem]
+                p-1">Buy</button>
+                                        <button class="text-white shadow-md bg-red-600 rounded-lg text-[.7rem]
+                p-1">Delete</button>
+                                    </div>
+                                </div>
+                            </div> -->
+                        
+
+                    </div>
+                    <div class="flex align-middle border">
+                        <div class="py-[1em]">
+                            <p class="text-[.8rem] text-center">total</p>
+
+                        </div>
+                        <div class="items-center p-3">
+                            <p class="total-price text-[1.2rem] text-center">1,200</p>
+                        </div>
+
+                    </div>
+                    <div class="py-1 flex justify-center  gap-5">
+                        <span class="p-3 text-[.7rem] text-black"><input type="checkbox">all</span>
+
+                        <button class="uppercase bg-green-400 w-40 p-2 text-black">view cart</button>
+                    </div>
+
+                </div>
+                <!-- modal end -->
+
+            </div>
+
+            <div class="mr-2 hidden md:block">
+                <a href="#">Home</a>
+            </div>
+            <div class="mr-2  hidden md:block">
+                <a href="#">About us</a>
+            </div>
+            <div class="mr-2  hidden md:block">
+                <a href="#">Contact us</a>
+            </div>
+            <div class="flex">
+                <img class="w-9 h-9 pt-1 md:hidden" src="/image/burger-white.png" alt="">
+            <img class="w-8 rounded-full h-8 mt-1" src="/image/mesuperman.jpg" alt="">
+            </div>
+        </div>
+        
+        
+
+            <!-- <img class="w-9 h-9 pt-1 md:hidden" src="/image/burger-white.png" alt="">
+            <img class="w-8 rounded-full h-8 mt-1" src="/image/mesuperman.jpg" alt=""> -->
+        
+
+        <!-- Modal -->
+
+
+        <!-- Modal end -->
+
+    </header>
+    <!-- header end -->
+
+    <!-- Navigation bar -->
+    <nav class="fixed z-40 top-16 right-3 left-3  align-middle
+    shadow-lg text-[##18A558] bg-[#EEEDED] uppercase ">
+        <ul class="flex justify-around  text-[.7rem] text-[#2E765E] sm:text-sm align-middle
+        z-50 items-center p-2 md:p-3 ">
+            <li class=" whitespace-nowrap hover:bg-[#83CEB5] rounded-lg px-2 py-1"><a href="">shop</a></li>
+            <li class=" whitespace-nowrap hover:bg-[#83CEB5] rounded-lg px-2 py-1"><a href="">Men's Perfume</a></li>
+            <li class=" whitespace-nowrap hover:bg-[#83CEB5] rounded-lg px-2 py-1"><a href="">Women's Perfume</a></li>
+            <li class=" whitespace-nowrap hidden md:block hover:bg-[#83CEB5] rounded-lg px-2 py-1"><a href="">Gift's</a>
+            </li>
+            <li class=" whitespace-nowrap hidden md:block hover:bg-[#83CEB5] rounded-lg px-2 py-1"><a href="">New
+                    Arrival</a></li>
+            <li class=" whitespace-nowrap hidden md:block hover:bg-[#83CEB5] rounded-lg px-2 py-1"><a href="">Best
+                    Seller's</a></li>
+        </ul>
+    </nav> <!-- Navigation bar End-->
+
+    <!-- item -->
+    <section class="products mx-3 relative bg-gradient-to-br from-[#2E765E] pt-[5%] text-sm top-[3.5%] md:top-[3.7%] p-3
+     grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 descendant-p:text-white ">
+        <!-- <div class="perfume_list uppercase grid grid-flow-row place-items-center p-3">
+            <div class="bg-[#83CEB5] rounded-lg sm:w-36 sm:h-36 md:w-48 md:h-48  ">
+                <img id="perfume-photo-src" class="rounded w-full h-full object-cover" src="/perfumes/lacos1.jpg" alt="">
+            </div>
+            <p class="prerfume_brand text-sm lg:text-base">lacoste</p>
+            <p class="perfume_name text-sm lg:text-base">Booster</p>
+            <div class="flex flex-row align-middle justify-center ">
+                <span class="text-[#2E765E] text-lg inline-block ">$</span>
+                <p class="perfume_price text-center pt-1 text-black/75">105</p>
+            </div>
+
+            <button class="addTo_cart bg-[#EEEDED] w-24 shadow-lg font-bold text-[#27e1c1]
+        hover:bg-[#83CEB5] rounded-2xl text-[.6rem] p-[1em] md:text-xs">ADD TO CART</button>
+        </div> -->
+        
+
+
+    </section>
+
+
+    <script src="perfume.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

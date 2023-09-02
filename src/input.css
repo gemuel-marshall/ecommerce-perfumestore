@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Barriecito&family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Fira+Code&family=Lato:wght@700&family=Noto+Sans+Cypro+Minoan&family=Noto+Sans+JP:wght@300&family=Poppins&family=Roboto+Condensed:wght@300;400&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    html {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+  }
